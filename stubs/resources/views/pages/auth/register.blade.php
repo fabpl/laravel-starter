@@ -19,9 +19,9 @@ $register = function () {
 ?>
 <x-layouts.auth title="{{ trans('Register') }}">
     <div class="p-6 space-y-4 sm:p-8 md:space-y-6">
-        <x-ui.typography.h1>
+        <x-ui.typography.h2>
             {{ trans('Create an account') }}
-        </x-ui.typography.h1>
+        </x-ui.typography.h2>
 
         @volt('pages.auth.register')
         <x-ui.form wire:submit="register">

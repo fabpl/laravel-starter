@@ -21,9 +21,9 @@ $sendPasswordResetLink = function () {
 ?>
 <x-layouts.auth title="{{ trans('Forgot Password?') }}">
     <div class="p-6 space-y-4 sm:p-8 md:space-y-6">
-        <x-ui.typography.h1>
+        <x-ui.typography.h2>
             {{ trans('Forgot Password?') }}
-        </x-ui.typography.h1>
+        </x-ui.typography.h2>
 
         @volt('pages.auth.password.request')
         <x-ui.form wire:submit="sendPasswordResetLink">

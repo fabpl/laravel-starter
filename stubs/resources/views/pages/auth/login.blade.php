@@ -19,9 +19,9 @@ $login = function () {
 ?>
 <x-layouts.auth title="{{ trans('Login') }}">
     <div class="p-6 space-y-4 sm:p-8 md:space-y-6">
-        <x-ui.typography.h1>
+        <x-ui.typography.h2>
             {{ trans('Sign in to your account') }}
-        </x-ui.typography.h1>
+        </x-ui.typography.h2>
 
         @volt('pages.auth.login')
         <x-ui.form wire:submit="login">

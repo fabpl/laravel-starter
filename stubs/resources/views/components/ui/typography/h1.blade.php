@@ -1,3 +1,3 @@
-<h1 {{ $attributes->twMerge('text-xl font-bold leading-tight tracking-tight text-gray-900 dark:text-white md:text-2xl') }}>
+<h1 {{ $attributes->twMerge('text-4xl font-extrabold leading-none tracking-tight text-gray-900 md:text-5xl lg:text-6xl dark:text-white') }}>
     {{ $slot }}
 </h1>
